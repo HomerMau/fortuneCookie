@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --ff-title: "Montserrat", sans-serif;
+  --ff-paragraph: "DM Sans", sans-serif;
+  --ff-message: "Dancing Script", cursive;
+}
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #b0f 100%);
+
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  background: #fff;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+
+  width: min(42.8rem, 90%);
+  margin-top: -12rem;
+
+  text-align: center;
+}
+
+/*screen1*/
+
+h1 {
+  font-family: var(--ff-title);
+  margin-bottom: 1.4rem;
+  font-size: 2.4rem;
+}
+
+p {
+  font-family: var(--ff-paragraph);
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+#img1 {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#img1:hover {
+  animation: tremor 0.4s ease-in-out infinite;
+}
+
+
+/*screen2*/
+
+.message {
+  background: #e4edf1;
+  box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.5);
+  padding: 1rem;
+  margin: 1.7rem 0;
+}
+
+h2 {
+  font-family: var(--ff-message);
+  color: #000;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+button {
+  margin-top: 1.7rem;
+
+  border: none;
+  background: #ff9500;
+  font-family: var(--ff-paragraph);
+  padding: 1.6rem;
+  cursor: pointer;
+
+  border-radius: 0.4rem;
+
+  color: #fff;
+  font-size: 1.5rem;
+
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #db8000;
+}
+
+
+/*Animação Cookie*/
+
+@keyframes tremor {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(2deg);
+  }
+  40% {
+    transform: rotate(-1deg);
+  }
+  60% {
+    transform: rotate(2deg);
+  }
+  80% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+/*Animação Background*/
+
+body {
+		animation: gradient 10s ease infinite;
+    background-size: 200% 200%;
+  }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
