@@ -23,6 +23,6 @@ Contribuição
 Se você deseja contribuir para este projeto, fique à vontade para abrir uma issue ou enviar um pull request. Sua contribuição é muito bem-vinda!
 
 Autor
-Seu Nome - Desenvolvedor(a) e apaixonado(a) por inspirar pessoas.
+Tiago Lucas da Silva - Desenvolvedor(a) e apaixonado(a) por inspirar pessoas.
 Agradecimentos
 Agradecemos por visitar o "Biscoito da Sorte" e esperamos que as mensagens inspiradoras tragam um sorriso ao seu rosto e positividade ao seu dia. Divirta-se abrindo os biscoitos e compartilhando as mensagens com seus amigos e familiares! 🌈✨
